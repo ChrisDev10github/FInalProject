@@ -7,8 +7,8 @@ go
 use DisUnemp;
 go
 
-create table SensusData (
-    SensusId    int primary key identity(1, 1),
+create table CensusData (
+    CensusId    int primary key identity(1, 1),
     Colmun1      varchar(50) not null,
     Colmun2      varchar(50) not null,
     Colmun3      varchar(50) not null,
@@ -36,7 +36,7 @@ create table LocationData (
 
 create table PredictorData (
     PlaceTimeId     int primary key identity(1, 1),
-    SensusId     int not null,
+    CensusId     int not null,
     DisasterId       int not null,
     LocationId    int null,
     Year     int not null,
@@ -47,9 +47,9 @@ create table PredictorData (
     VerifiedLossContent float null , 
     AmountApprovedRealEstate float null , 
     ApprovedAmountEIDL float null ,  
-    constraint fk_SensusId
-        foreign key (SensusId)
-        references SensusData(SensusId),
+    constraint fk_CensusId
+        foreign key (CensusId)
+        references CensusData(CensusId),
     constraint fk_DisasterId
         foreign key (DisasterId)
         references DisasterData(DisasterId),
