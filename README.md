@@ -2,7 +2,7 @@
 
 
 # Connecting to the databse:
-Databse Name: guinea-pigs-database
-Username: gPigs
-Password: GuineaPigs!
+Databse Name: guinea-pigs-database\n
+Username: gPigs\n
+Password: GuineaPigs!\n
 Server: gen10-data-fundamentals-22-02-sql-server.database.windows.net
