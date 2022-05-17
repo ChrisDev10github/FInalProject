@@ -1,20 +1,11 @@
 use master; 
 go
-drop database if exists DisUnemp;
+drop database if exists DisasterUnemployment;
 go
-create database DisUnemp;
+create database DisasterUnemployment;
 go
-use DisUnemp;
+use DisasterUnemployment;
 go
-
-create table CensusData (
-    CensusId    int primary key identity(1, 1),
-    Colmun1      varchar(50) not null,
-    Colmun2      varchar(50) not null,
-    Colmun3      varchar(50) not null,
-    Colmun4      varchar(50) not null,
-);
-
 
 create table DisasterData (
 
@@ -40,16 +31,17 @@ create table PredictorData (
     DisasterId       int not null,
     LocationId    int null,
     Year     int not null,
-    UnemployementRate       float not null,
-    SP500    float not null,
+    UnemploymentRate       float not null,
+    MarketValue    float not null,
     LoanMinusLoss    float null,
-    VerifiedLossRealEstate float null ,
-    VerifiedLossContent float null , 
-    AmountApprovedRealEstate float null , 
-    ApprovedAmountEIDL float null ,  
-    constraint fk_CensusId
-        foreign key (CensusId)
-        references CensusData(CensusId),
+    VerifiedLossRealEstate float not null ,
+    VerifiedLossContent float not null , 
+    AmountApprovedRealEstate float not null , 
+    ApprovedAmountEIDL float not null ,  
+    PropertyTax float not null,
+    TotalSalariesWages float not null,
+    InterestRevenue float not null,
+    FinesForfeits float not null
     constraint fk_DisasterId
         foreign key (DisasterId)
         references DisasterData(DisasterId),
