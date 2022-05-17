@@ -1,11 +1,15 @@
-use master; 
-go
-drop database if exists DisasterUnemployment;
-go
-create database DisasterUnemployment;
-go
-use DisasterUnemployment;
-go
+--use master; 
+--go
+--drop database if exists DisasterUnemployment;
+--go
+--create database DisasterUnemployment;
+--go
+--use DisasterUnemployment;
+--go
+--drop table if exists DisasterData
+--drop table if exists LocationData
+--drop table if exists PredictorData
+
 
 create table DisasterData (
 
@@ -27,7 +31,6 @@ create table LocationData (
 
 create table PredictorData (
     PlaceTimeId     int primary key identity(1, 1),
-    CensusId     int not null,
     DisasterId       int not null,
     LocationId    int null,
     Year     int not null,
