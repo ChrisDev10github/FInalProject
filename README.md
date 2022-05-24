@@ -8,7 +8,7 @@ U.S. Small Business Administration (Disaster Loan data),
 Willden Chase (S&P 500 Data), 
 U.S Department of Labor Statistics (Unemployement Data).
 
-More information can be found within the Project Specifications folder, in the DataSources PDF. The project management plan can also be found in this folder.
+More information can be found within the Project Specifications folder, in the [DataSources PDF](https://github.com/ChrisDev10github/FInalProject/blob/main/Project%20Specifications/DataSources.pdf). The project management plan can also be found in this folder.
 
 A PDF of the ETL necessary for this project can be found in the main directory, (ETL Report).
 The ETL for these datasets as well as the raw data files used can be found in the code folder, containing folders for each set of data. Our Kafka consumer and producer are directly in the code folder.
