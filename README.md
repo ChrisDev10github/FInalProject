@@ -6,7 +6,7 @@ This project looked at data from the following sources:
 U.S. Census (Financial Data), 
 U.S. Small Business Administration (Disaster Loan data), 
 Willden Chase (S&P 500 Data), 
-U.S Department of Labor Statistics (Unemployement Data).
+U.S Department of Labor Statistics (Unemployment Data).
 
 More information can be found within the Project Specifications folder, in the [DataSources PDF](https://github.com/ChrisDev10github/FInalProject/blob/main/Project%20Specifications/DataSources.pdf). The project management plan can also be found in this folder.
 
