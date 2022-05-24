@@ -19,8 +19,3 @@ For the visualizations summarizing our findings, we made napkin drawings that le
 
 The findings of our project are explained within ProjectTechnicalReport.pdf
 
-## Connecting to the databse:
-- Databse Name: guinea-pigs-database
-- Username: gPigs
-- Password: GuineaPigs!
-- Server: gen10-data-fundamentals-22-02-sql-server.database.windows.net
