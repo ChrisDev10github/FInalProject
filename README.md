@@ -19,3 +19,5 @@ For the visualizations summarizing our findings, we made napkin drawings for [vi
 
 The findings of our project are explained within [ProjectTechnicalReport.pdf](https://github.com/ChrisDev10github/FInalProject/blob/main/ProjectTechnicalReport.pdf)
 
+A presentation with our findings is in [CapstonePresentationSlide.pdf](https://github.com/ChrisDev10github/FInalProject/blob/main/CapstonePresentationSlides.pdf) in the main directory.
+
